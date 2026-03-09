@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     background-color: #333;
     color: white;
+}
+
+header {
+    margin: 0;
 }
 
 #course-title {
@@ -97,4 +102,8 @@ footer {
     padding-bottom: 1em;
     background-color: seagreen;
     font-size: large;
+}
+
+#lastmodified {
+    color: yellow;
 }
