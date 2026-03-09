@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+#course-title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+    background-color: seagreen;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav ul li {
+    flex: 1 1 25%;
+    color: yellow;
+}
+
+main {
+    background-color: #555;
+    padding-bottom: 1em;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.card {
+    display: grid; 
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1em;
+    outline: 0.1em solid white;
+    border-radius: 1em;
+}
+
+
+.card h2{
+    text-align: center;
+    background-color: seagreen;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
+
+.card div {
+    display: flex;
+}
+
+.card div img {
+    height: 10em;
+    width: auto;
+    border-bottom-left-radius: 0.8em;
+}
+
+.card p {
+    text-align: left;
+    padding: 1em;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: seagreen;
+    font-size: large;
+}
