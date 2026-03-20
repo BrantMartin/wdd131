@@ -12,13 +12,14 @@ body {
 
 header {
     margin: 0;
+    background-color: #2c6846;
 }
 
 #course-title {
     padding-top: 1em;
     padding-bottom: 1em;
     display: block;
-    background-color: seagreen;
+    background-color: #2c6846;
     text-align: center;
     font-size: x-large;
     color: white;
@@ -76,7 +77,7 @@ h1 {
 
 .card h2{
     text-align: center;
-    background-color: seagreen;
+    background-color: #2c6846;
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;
 }
@@ -101,7 +102,7 @@ footer {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: seagreen;
+    background-color: #2c6846;
     font-size: large;
 }
 
