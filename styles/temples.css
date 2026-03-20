@@ -1,14 +1,10 @@
-body {
-     font-family: "Roboto", sans-serif;
-}
-
 header, main, footer {
     max-width: 80rem;
     margin: 1rem auto;
     padding: 1rem;
 }
 
-nav {
+.templenav {
     display: flex;
     flex-wrap: wrap;
     max-width: 80rem;
