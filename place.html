@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+      <meta name="description" content="This is a small webpage to show how responsive design with pictures.">
+      <meta name="author" content="Brant Martin">
+		<title>Nanjing, China</title>
 		<link rel="stylesheet" href="styles/place.css" />
 		<script src="scripts/place.js" defer></script>
 		<script src="scripts/getdates.js" defer></script>
@@ -12,7 +14,7 @@
 		<header>
 			<h1>Nanjing, China</h1>
 		</header>
-		<body>
+		<main>
 			<div class="hero">
 				<picture>
 					<media>
@@ -22,11 +24,11 @@
 						/>
 						<source
 							media="(1000)"
-							srcset="images/medium-large.webp"
+							srcset="images/hero-medium.webp"
 						/>
 						<img
 							src="images/hero-small.webp"
-							alt="small hero image"
+							alt="Hero image of bird and sky"
 							width="500"
 							height="250"
 						/>
@@ -52,7 +54,7 @@
             <p id="wind">Wind: </p>
             <p id="windchill">Wind Chill: </p>
          </div>
-		</body>
+		</main>
 		<footer>
 			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
 			<p id="lastmodified"></p>
