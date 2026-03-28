@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles/place.css" />
+		<script src="scripts/place.js" defer></script>
+		<script src="scripts/getdates.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Nanjing, China</h1>
+		</header>
+		<body>
+			<div class="hero">
+				<picture>
+					<media>
+						<source
+							media="(1500)"
+							srcset="images/hero-large.webp"
+						/>
+						<source
+							media="(1000)"
+							srcset="images/medium-large.webp"
+						/>
+						<img
+							src="images/hero-small.webp"
+							alt="small hero image"
+							width="500"
+							height="250"
+						/>
+					</media>
+				</picture>
+			</div>
+         <div class="data">
+            <h2>Data</h2>
+            <p>Area: 2,547 mi²</p>
+            <p>Population: 9,423,400</p>
+            <p>Province: Jiangsu Province</p>
+            <p>Languages: Mandarin</p>
+            <p>Currency: Yuan RMB</p>
+            <p>Time Zone: Jiangsu, China (GMT+8)</p>
+            <p>Calling Code: +86</p>
+            <p>Internet TLD: .cn</p>
+         </div>
+         <div class="weather">
+            <h2>Weather</h2>
+            <img class="wicon" src="images/weather-icon.svg" alt="Weather Icon">
+            <p id="temp">Temperature: </p>
+            <p id="conditions">Conditions: </p>
+            <p id="wind">Wind: </p>
+            <p id="windchill">Wind Chill: </p>
+         </div>
+		</body>
+		<footer>
+			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
+			<p id="lastmodified"></p>
+		</footer>
+	</body>
+</html>
