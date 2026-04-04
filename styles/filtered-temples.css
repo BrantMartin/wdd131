@@ -1,0 +1,58 @@
+header, main, footer {
+    max-width: 80rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.templenav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80rem;
+}
+
+.temple-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+h3 {
+    color: white;
+}
+
+span {
+    color: seagreen;
+}
+
+section {
+    margin: 1rem;
+    background-color: #555;
+    text-align: center;
+    border: solid hsla(0, 100%, 0%, 0.1);
+    border-radius: 1em;
+    padding-bottom: 1em;
+}
+
+#menu {
+    border: none;
+    background-color: #2c6846;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open{
+    display: flex;
+}

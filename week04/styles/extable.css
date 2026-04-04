@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.blackground {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.grayground {
+    color: white;
+    background-color: #555;
+    border: none;
+    border-left: thin solid hsla(0, 0%, 30%, 0.1);
+}
+
+.dark-row {
+    background-color: rgb(240, 240, 240)
+}
+
+caption {
+    caption-side: bottom;
+    padding: 0.2em;
+    font-size: small;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid hsla(0, 0%, 30%, 0.1);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: thin solid hsla(0, 0%, 30%, 0.1);
+    margin: 1em;
+    padding: 0.7em;
+    text-align: center;
+}

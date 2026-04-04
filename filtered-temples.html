@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="A simple page that demonstrates responsive web design by changing based on screen size"
+		/>
+		<meta name="author" content="Brant Martin" />
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/filtered-temples.css" />
+		<link rel="stylesheet" href="styles/filtered-temples-large.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<title>Temple Album</title>
+		<script src="scripts/getdates.js" defer></script>
+		<script src="scripts/filtered-temples.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h2 id="course-title">Temple Album</h2>
+			<nav class="templenav">
+				<button type="button" id="menu"></button>
+				<ul class="navigation">
+					<li><a href="#" id="hometemp">Home</a></li>
+					<li><a href="#" id="oldtemp">Old</a></li>
+					<li><a href="#" id="newtemp">New</a></li>
+					<li><a href="#" id="largetemp">Large</a></li>
+					<li><a href="#" id="smalltemp">Small</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Home</h1>
+			<div class="temple-section"></div>
+		</main>
+		<footer>
+			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
+			<p id="lastmodified"></p>
+		</footer>
+	</body>
+</html>
