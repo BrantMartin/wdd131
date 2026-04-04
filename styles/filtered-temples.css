@@ -12,7 +12,7 @@ header, main, footer {
 
 .temple-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 25rem));
     align-items: center;
     grid-gap: 1rem;
 }
