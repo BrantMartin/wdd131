@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+    font: "Georgia";
+    background-color: #555;
+    color: whitesmoke;
+}
+
+header {
+    background-color: #a4121c;
+    padding: 2rem;
+}
+
+.content {
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+.sitenamep {
+    text-align: center;
+}
+
+h1 {
+    background-color: #881619;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: #a4121c;
+    padding: 2rem;
+    position: relative;
+    bottom: 0rem;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.mobileimg {
+    width: 60%;
+    margin-left: 20%;
+}
