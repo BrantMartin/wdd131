@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-size: large;
+}
+
+header {
+	text-align: center;
+    background-color: #235738;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #444;
+    color: whitesmoke;
+}
+
+fieldset {
+	text-align: left;
+	border: none;
+	margin: 1rem;
+    margin-left: 25%;
+}
+
+.topLabel {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.optional {
+	color: yellow;
+    display: contents;
+}
+
+.boxWidth {
+    width: 60%;
+}
+
+#checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+	width: 44.5%;
+	margin-left: 25%;
+}
+
+#features {
+}
+
+footer {
+	margin-top: 1rem;
+	text-align: center;
+	background-color: #235738;
+	color: whitesmoke;
+}
