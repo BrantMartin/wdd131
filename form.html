@@ -14,7 +14,7 @@
 		<header>
 			<h1>Product Review</h1>
 		</header>
-		<form method="get" action="review.html">
+		<input method="get" action="review.html">
 			<fieldset>
 				<label for="product"
 					>Product Name
@@ -25,29 +25,29 @@
 			</fieldset>
 			<fieldset>
 				<label> Overall Rating </label>
-				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
+				<label for="rating1">
+					<input type="radio" name="rating1" value="1star" id="rating1" required/>
 					⭐
 				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
+				<label for="rating2">
+					<input type="radio" name="rating2" value="2star" id="rating2" required/>
 					⭐⭐
-				</label for="rating">
-				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
+				</label>
+				<label for="rating3">
+					<input type="radio" name="rating3" value="3star" id="rating3" required/>
 					⭐⭐⭐
 				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
+				<label for="rating4">
+					<input type="radio" name="rating4" value="4star" id="rating4" required/>
 					⭐⭐⭐⭐
 				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
+				<label for="rating5">
+					<input type="radio" name="rating5" value="5star" id="rating5" required/>
 					⭐⭐⭐⭐⭐
 				</label>
 			</fieldset>
 			<fieldset>
-				<label class="topLabel">
+				<label for="installDate" class="topLabel">
 					Date of Installation
 					<input type="date" name="installDate" class="boxWidth"/>
 				</label>
@@ -55,7 +55,7 @@
 			<fieldset id="features">
 				<label id="checkboxes">
 					Which features did you find useful in the product?
-					<p>(Check all that apply)</p>
+					<span>(Check all that apply)</span>
 					<label for="durability">
 						<input type="checkbox" name="durability" value="yes" id="durability"/>
 						Durability
@@ -75,18 +75,18 @@
 				</label>
 			</fieldset>
 			<fieldset>
-				<label class="topLabel">
+				<label for="review" class="topLabel">
 					Written Review<span class="optional">(Optional)</span>
 					<textarea name="review" id="review" rows="8" cols="50" class="boxWidth"></textarea>
 				</label>
 			</fieldset>
 			<fieldset>
-				<label class="topLabel">
+				<label for="name" class="topLabel">
 					Your Name<span class="optional">(Optional)</span>
-					<input type="text" name="name" id="name" rows="1" cols="50" class="boxWidth"></input>
+					<input type="text" name="name" id="name" class="boxWidth"></input>
 				</label>
 			</fieldset>
-			<input type="submit" value="Post Review" id="submit"/>
+			<input type="submit" value="Post Review" id="submit"></input>
 		</form>
 		<footer>
 			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
