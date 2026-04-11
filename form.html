@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Brant Martin">
+      <meta name="description" content="A simple page to demonstrate the use of a form with html, css, and javascript">
 		<title>Document</title>
       <script src="scripts/getdates.js" defer></script>
       <script src="scripts/form.js" defer></script>
@@ -12,7 +14,7 @@
 		<header>
 			<h1>Product Review</h1>
 		</header>
-		<form>
+		<form method="get" action="review.html">
 			<fieldset>
 				<label
 					>Product Name
@@ -23,24 +25,24 @@
 			</fieldset>
 			<fieldset>
 				<label> Overall Rating </label>
-				<label>
-					<input type="radio" name="rating" value="1star" />
+				<label for="rating">
+					<input type="radio" name="rating" value="1star" id="1star" required/>
 					⭐
 				</label>
-				<label>
-					<input type="radio" name="rating" value="1star" />
+				<label for="rating">
+					<input type="radio" name="rating" value="1star" id="2star" required/>
 					⭐⭐
-				</label>
-				<label>
-					<input type="radio" name="rating" value="1star" />
+				</label for="rating">
+				<label for="rating">
+					<input type="radio" name="rating" value="1star" id="3star" required/>
 					⭐⭐⭐
 				</label>
-				<label>
-					<input type="radio" name="rating" value="1star" />
+				<label for="rating">
+					<input type="radio" name="rating" value="1star" id="4star" required/>
 					⭐⭐⭐⭐
 				</label>
-				<label>
-					<input type="radio" name="rating" value="1star" />
+				<label for="rating">
+					<input type="radio" name="rating" value="1star" id="5star" required/>
 					⭐⭐⭐⭐⭐
 				</label>
 			</fieldset>
@@ -54,19 +56,19 @@
 				<label id="checkboxes">
 					Which features did you find useful in the product?
 					<p>(Check all that apply)</p>
-					<label>
+					<label for="durability">
 						<input type="checkbox" name="durability" value="yes" />
 						Durability
 					</label>
-					<label>
+					<label for="ease">
 						<input type="checkbox" name="ease" value="yes" />
 						Ease of Use
 					</label>
-					<label>
+					<label for="performance">
 						<input type="checkbox" name="performance" value="yes" />
 						Performance
 					</label>
-					<label>
+					<label for="design">
 						<input type="checkbox" name="design" value="yes" />
 						Design
 					</label>
@@ -81,7 +83,7 @@
 			<fieldset>
 				<label class="topLabel">
 					Your Name<span class="optional">(Optional)</span>
-					<textarea name="name" id="name" rows="1" cols="50" class="boxWidth"></textarea>
+					<input type="text" name="name" id="name" rows="1" cols="50" class="boxWidth"></input>
 				</label>
 			</fieldset>
 			<input type="submit" value="Post Review" id="submit"/>
