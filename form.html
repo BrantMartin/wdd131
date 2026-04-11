@@ -3,12 +3,14 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="Brant Martin">
-      <meta name="description" content="A simple page to demonstrate the use of a form with html, css, and javascript">
+		<meta name="author" content="Brant Martin" />
+		<meta
+			name="description"
+			content="A simple page to demonstrate the use of a form with html, css, and javascript" />
 		<title>Product Review</title>
-      <script src="scripts/getdates.js" defer></script>
-      <script src="scripts/form.js" defer></script>
-      <link rel="stylesheet" href="styles/form.css">
+		<script src="scripts/getdates.js" defer></script>
+		<script src="scripts/form.js" defer></script>
+		<link rel="stylesheet" href="styles/form.css" />
 	</head>
 	<body>
 		<header>
@@ -19,37 +21,60 @@
 				<label for="product"
 					>Product Name
 					<select name="product" id="product" required>
-                  <option value="" disabled selected>Select a Product...</option>
-               </select>
+						<option value="" disabled selected>
+							Select a Product...
+						</option>
+					</select>
 				</label>
 			</fieldset>
 			<fieldset>
 				<label> Overall Rating </label>
+				<input
+					type="radio"
+					name="rating"
+					value="1star"
+					id="rating1"
+					required />
+				<label for="rating1"> ⭐ </label>
+				<input
+					type="radio"
+					name="rating"
+					value="2star"
+					id="rating2"
+					required />
+				<label for="rating"> ⭐⭐ </label>
 				<label for="rating">
-					<input type="radio" name="rating" value="1star" id="rating" required/>
-					⭐
-				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="2star" id="rating2" required/>
-					⭐⭐
-				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="3star" id="rating3" required/>
+					<input
+						type="radio"
+						name="rating"
+						value="3star"
+						id="rating3"
+						required />
 					⭐⭐⭐
 				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="4star" id="rating4" required/>
-					⭐⭐⭐⭐
-				</label>
-				<label for="rating">
-					<input type="radio" name="rating" value="5star" id="rating5" required/>
-					⭐⭐⭐⭐⭐
-				</label>
+				<input
+					type="radio"
+					name="rating"
+					value="4star"
+					id="rating4"
+					required />
+				<label for="rating"> ⭐⭐⭐⭐ </label>
+				<input
+					type="radio"
+					name="rating"
+					value="5star"
+					id="rating5"
+					required />
+				<label for="rating"> ⭐⭐⭐⭐⭐ </label>
 			</fieldset>
 			<fieldset>
 				<label for="installDate" class="topLabel">
 					Date of Installation
-					<input type="date" name="installDate" class="boxWidth" id="installDate"/>
+					<input
+						type="date"
+						name="installDate"
+						class="boxWidth"
+						id="installDate" />
 				</label>
 			</fieldset>
 			<fieldset id="features">
@@ -57,19 +82,35 @@
 					Which features did you find useful in the product?
 					<span>(Check all that apply)</span>
 					<label for="durability">
-						<input type="checkbox" name="durability" value="yes" id="durability"/>
+						<input
+							type="checkbox"
+							name="durability"
+							value="yes"
+							id="durability" />
 						Durability
 					</label>
 					<label for="ease">
-						<input type="checkbox" name="ease" value="yes" id="ease"/>
+						<input
+							type="checkbox"
+							name="ease"
+							value="yes"
+							id="ease" />
 						Ease of Use
 					</label>
 					<label for="performance">
-						<input type="checkbox" name="performance" value="yes" id="performance"/>
+						<input
+							type="checkbox"
+							name="performance"
+							value="yes"
+							id="performance" />
 						Performance
 					</label>
 					<label for="design">
-						<input type="checkbox" name="design" value="yes" id="design"/>
+						<input
+							type="checkbox"
+							name="design"
+							value="yes"
+							id="design" />
 						Design
 					</label>
 				</div>
@@ -77,16 +118,21 @@
 			<fieldset>
 				<label for="review" class="topLabel">
 					Written Review<span class="optional">(Optional)</span>
-					<textarea name="review" id="review" rows="8" cols="50" class="boxWidth"></textarea>
+					<textarea
+						name="review"
+						id="review"
+						rows="8"
+						cols="50"
+						class="boxWidth"></textarea>
 				</label>
 			</fieldset>
 			<fieldset>
 				<label for="name" class="topLabel">
 					Your Name<span class="optional">(Optional)</span>
-					<input type="text" name="name" id="name" class="boxWidth">
+					<input type="text" name="name" id="name" class="boxWidth" />
 				</label>
 			</fieldset>
-			<input type="submit" value="Post Review" id="submit">
+			<input type="submit" value="Post Review" id="submit" />
 		</form>
 		<footer>
 			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
