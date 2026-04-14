@@ -125,7 +125,6 @@ smallLink.addEventListener("click", () => {
 	createTempleCard(temples.filter((temple) => temple.area < 90000));
 });
 
-
 function createTempleCard(filteredTemples) {
 	document.querySelector(".temple-section").innerHTML = "";
 	filteredTemples.forEach((temple) => {

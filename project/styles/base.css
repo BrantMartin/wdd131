@@ -23,6 +23,10 @@ nav {
 	max-width: 70%;
 }
 
+main {
+	min-height: 53rem;
+}
+
 
 footer p,
 span {
@@ -84,8 +88,7 @@ span {
 	color: #fff;
 }
 .navigation a:hover {
-	background-color: #bbb;
-	color: #333;
+	color: yellow;
 	font-weight: 700;
 }
 

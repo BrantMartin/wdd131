@@ -1,0 +1,35 @@
+.gamecard {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1.7fr;
+	gap: 0px 0px;
+    grid-template-areas: "picture name name";
+    border-style: solid;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gamecard img {
+    grid-area: picture;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10%;
+    vertical-align: center;
+}
+
+.gamecard h2 {
+    grid-area: name;
+    font-size: large;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+@media (min-width: 45em) {
+    .gamecard h2 {
+        font-size: x-large;
+    }
+}

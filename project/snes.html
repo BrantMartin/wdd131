@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -7,10 +8,12 @@
 			name="description"
 			content="Homepage for with links to various top ten lists of retro games." />
 		<meta name="author" content="Brant Martin" />
-		<title>Retrotoptens Homepage</title>
+		<title>SNES List</title>
 		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/list.css" />
 		<script src="scripts/getdates.js" defer></script>
 		<script src="scripts/navbar.js" defer></script>
+		<script src="scripts/displaygames.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -26,13 +29,9 @@
 				</ul>
 			</nav>
 		</header>
-		<main>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-				iusto esse, eligendi quae incidunt earum rem aliquam officia
-				nobis odio minus iure temporibus nostrum error! Voluptates
-				eveniet quod quidem nobis!
-			</p>
+		<main id="main">
+			<button id="viewlist">view list</button>
+			<button id="hidelist">hide list</button>
 		</main>
 		<footer>
 			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
@@ -40,3 +39,5 @@
 		</footer>
 	</body>
 </html>
+
+
