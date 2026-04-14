@@ -43,7 +43,6 @@ span {
 	color: yellow;
 }
 
-/* small view navigation */
 #menu {
 	font-size: 1.5rem;
 	border: 0;
@@ -92,12 +91,11 @@ span {
 	font-weight: 700;
 }
 
-/* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
 	display: block;
 }
 
-/* large view navigation ************************************/
+
 @media (min-width: 45em) {
 	#menu {
 		display: none; /* hide hamburger button */

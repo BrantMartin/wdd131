@@ -28,6 +28,11 @@ h2 {
 	width: 100%;
 }
 
+.card button a {
+	text-decoration: none;
+	background-color: #881619;
+}
+
 .card button {
 	background-color: #881619;
 	border: none;
@@ -39,9 +44,8 @@ h2 {
 	font-size: xx-large;
 }
 
-.card button:hover {
-	color: #333;
-	background-color: #bbb;
+.card button a:hover {
+	color: yellow;
 }
 
 form {
@@ -88,6 +92,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background-color: #bbb;
+	color: black;
 }
 
 fieldset {
