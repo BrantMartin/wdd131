@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Homepage for with links to various top ten lists of retro games." />
+		<meta name="author" content="Brant Martin" />
+		<title>Retrotoptens Homepage</title>
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/homepage.css" />
+		<script src="scripts/getdates.js" defer></script>
+		<script src="scripts/navbar.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Home</h1>
+			<div class="menudiv">
+				<button type="button" id="menu"></button>
+			</div>
+			<nav>
+				<ul class="navigation">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="nes.html" title="NES">NES</a></li>
+					<li><a href="snes.html" title="SNES">SNES</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="intro">
+				<h2>Introduction</h2>
+				<p>
+					This website was created to celebrate retro games. If you
+					would like to see some of our personal favorite click one of
+					the buttons below. You can also sign up for our newsletter
+					for all things retro games.
+				</p>
+			</div>
+			<h2>Top 10 Lists</h2>
+			<section id="cardsection">
+				<div class="card">
+					<button>NES List</button>
+				</div>
+				<div class="card">
+					<button>SNES List</button>
+				</div>
+			</section>
+			<section>
+				<form method="get" action="index.html">
+					<fieldset>
+						<h2>Newsletter</h2>
+						<label for="name">Name: </label>
+						<input type="text" />
+						<label for="email">Email: </label>
+						<input type="email" />
+						<input
+							type="submit"
+							value="Get Newsletter"
+							id="submit" />
+					</fieldset>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p>©<span id="currentyear"></span> 🐻 Brant Martin 🐻 USA</p>
+			<p id="lastmodified"></p>
+		</footer>
+	</body>
+</html>
